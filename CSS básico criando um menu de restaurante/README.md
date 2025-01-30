@@ -1,2 +1,2 @@
 Menu Basico de Restaurante
-Curso FreeCodeCamp HTML
+Curso FreeCodeCamp HTML/CSS/JS
