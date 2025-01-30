@@ -1,2 +1,2 @@
 Conjunto de Marcadores Coloridos.
-Curso FreeCodeCamp HTML/CSS/JS
+Curso FreeCodeCamp HTML/CSS
