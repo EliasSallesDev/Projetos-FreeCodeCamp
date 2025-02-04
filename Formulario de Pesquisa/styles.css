@@ -1,0 +1,75 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#survey-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Largura máxima do formulário */
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: calc(100% - 12px); /* Ajusta a largura para considerar a borda */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que a largura inclua o padding e a borda */
+}
+
+/* Estilos específicos para botões de rádio e checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilos para o botão de envio */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o textarea */
+textarea {
+    height: 120px;
+}

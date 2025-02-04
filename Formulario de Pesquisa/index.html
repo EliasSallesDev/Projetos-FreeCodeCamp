@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Pesquisa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1 id="title">Formulário de pesquisa</h1>
+  <p id="description">"Queremos melhorar nossos serviços! Responda esta pesquisa e nos ajude a oferecer uma experiência ainda melhor para você."</p>
+
+  <form id="survey-form">
+    <!-- Campo Nome -->
+    <label id="name-label" for="name">Digite seu nome completo:</label>
+    <input id="name" type="text" placeholder="Ex: João Silva" required>
+
+    <!-- Campo Email -->
+    <label id="email-label" for="email">Digite seu email:</label>
+    <input type="email" id="email" placeholder="Ex: formulario@gmail.com" required>
+
+    <!-- Campo Número -->
+    <label id="number-label" for="number">Digite seu número completo:</label>
+    <input type="number" id="number" placeholder="Ex: (85)98114-287" min="1" max="12" required>
+
+    <!-- Dropdown -->
+    <label for="dropdown">Selecione uma opção:</label>
+    <select id="dropdown">
+      <option value="">Escolha uma opção</option>
+      <option value="sugestao">Sugestão</option>
+      <option value="reclamacao">Reclamação</option>
+      <option value="elogio">Elogio</option>
+    </select>
+
+    <!-- Botões de Opção (Radio) -->
+    <p>Qual é o seu nível de satisfação?</p>
+    <label><input type="radio" name="satisfacao" value="satisfeito"> Satisfeito</label>
+    <label><input type="radio" name="satisfacao" value="neutro"> Neutro</label>
+    <label><input type="radio" name="satisfacao" value="insatisfeito"> Insatisfeito</label>
+
+    <!-- Caixas de Seleção (Checkbox) -->
+    <p>Quais serviços você já utilizou?</p>
+    <label><input type="checkbox" name="servicos" value="atendimento"> Atendimento</label>
+    <label><input type="checkbox" name="servicos" value="suporte"> Suporte</label>
+    <label><input type="checkbox" name="servicos" value="produtos"> Produtos</label>
+
+    <!-- Textarea -->
+    <label for="comentarios">Deixe um comentário:</label>
+    <textarea id="comentarios" name="comentarios" rows="4" placeholder="Digite sua opinião aqui..."></textarea>
+
+    <!-- Botão de Envio -->
+    <button id="submit" type="submit">Enviar</button>
+
+  </form>
+
+</body>
+</html>
